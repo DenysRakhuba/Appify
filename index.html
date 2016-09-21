@@ -479,21 +479,21 @@
           </div>
         </div>
     <div class="container">
-        <form action="https://formspree.io/denis.rakhuba@gmail.com" method="POST">
+        <form id="contact-form" action="https://formspree.io/denis.rakhuba@gmail.com" method="POST">
           <div class="form-group col-sm-6">
             <label>Email address</label>
-            <input required name="_replyto" id="e-mail" type="email" class="form-control" placeholder="Email">
+            <input required name="Email" id="e-mail" type="email" class="form-control" placeholder="Email">
           </div>
           <div class="form-group col-sm-6">
             <label>Name</label>
-            <input required name="author_name" id="name" type="text" class="form-control" placeholder="Name">
+            <input required name="Name" id="name" type="text" class="form-control" placeholder="Name">
           </div>
           <div class="form-group col-sm-12">
             <label>Message</label>
-            <textarea required name="message" id="message" class="form-control" rows="3"></textarea>
+            <textarea required name="Message" id="message" class="form-control" rows="3"></textarea>
           </div>
           <div class="col-sm-12">
-             <input type="submit" name="send_message" id="send_message" class="btn sub-btn"></input>
+             <input type="submit" id="send_message" class="btn sub-btn"></input>
           </div>
         </form>
 
